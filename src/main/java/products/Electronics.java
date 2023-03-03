@@ -25,7 +25,7 @@ public class Electronics extends Product{
         this.color = color;
     }
 
-  //  public String calculateElectricCost (){
-    //    return "Cost = " this.voltage * this.height;
-  //  }
+    public String calculateElectricCost (){
+        return "Cost = " + this.voltage / 100;
+    }
 }
