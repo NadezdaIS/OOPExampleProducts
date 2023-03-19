@@ -9,7 +9,7 @@ public class Product {
     public int quantity;
     public double weight;
 
-// Constructor overloading
+// Constructor overloading, used because it first case used is assigned automatically, it second case id is already known (for already existing product)
 
     public Product(String name, double price, int quantity, double weight) {
         this.id =  UUID.randomUUID();
