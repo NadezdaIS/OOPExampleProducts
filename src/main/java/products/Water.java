@@ -17,6 +17,6 @@ public class Water extends Drinks {
     }
 
     public WaterType getType() {
-        return type;
+        return this.type;
     }
 }
